@@ -1,14 +1,15 @@
-$(document).ready(function(){
-  $("h1").click(function() {
-  alert("This is a header.");
-  alert("I told you, THIS IS A HEADER!");
-  });
 
-  $("p").click(function() {
-  alert("This is a paragraph.");
-  });
+const response = prompt("Please write a sentence.");
 
-  $("img").click(function() {
-  alert("This is a image.");
-  });
-});
+
+function firstAndLast() {
+  let first = response.charAt(response[0]).toUpperCase();
+  let last = response.charAt(response.length(-1).toUpperCase();
+  let final = first + last;
+  return final;
+
+
+
+
+alert(final)
+}
